@@ -1,12 +1,23 @@
 {
 	"name": "OutputDataset",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
 		"annotations": [],
 		"type": "AzureBlob",
 		"typeProperties": {
 			"format": {
-				"type": "JsonFormat"
-			}
+				"type": "TextFormat",
+				"columnDelimiter": ",",
+				"rowDelimiter": "",
+				"treatEmptyAsNull": true,
+				"skipLineCount": 0,
+				"firstRowAsHeader": false
+			},
+			"fileName": "emp.txt",
+			"folderPath": "adftutorial"
 		}
 	}
 }
