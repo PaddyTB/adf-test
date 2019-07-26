@@ -1,0 +1,12 @@
+{
+	"name": "OutputDataset",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlob",
+		"typeProperties": {
+			"format": {
+				"type": "JsonFormat"
+			}
+		}
+	}
+}
