@@ -4,7 +4,7 @@
 		"annotations": [
 			"hey ho"
 		],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
