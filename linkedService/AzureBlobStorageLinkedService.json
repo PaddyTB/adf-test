@@ -6,7 +6,7 @@
 		"type": "AzureBlobStorage",
 		"typeProperties": {
 			"connectionString": "DefaultEndpointsProtocol=https;AccountName=sandboxadfpdb;EndpointSuffix=core.windows.net;",
-			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNBTkRCT1gtQURGLVBEQi1BREZUVVRPUklBTERBVEFGQUNUT1JZX2M2ZjQ1YzZmLWU0MGEtNDVmNy1hNThmLTQ5NDgxY2MwNzkxNCINCn0="
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIlNBTkRCT1gtQURGLVBEQi1BREZUVVRPUklBTERBVEFGQUNUT1JZXzQzMmRmNWViLTJmNDAtNGE1Yi1hOGRkLTRiYjg3MzBiYmZiNSINCn0="
 		}
 	}
 }
