@@ -1,0 +1,38 @@
+{
+	"name": "ActionStatus",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ActionStatusID",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "ActionStatusName",
+				"type": "varchar"
+			},
+			{
+				"name": "ActionStatusDescription",
+				"type": "varchar"
+			},
+			{
+				"name": "Sequence",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "rowguid",
+				"type": "uniqueidentifier"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[ActionStatus]"
+		}
+	}
+}
