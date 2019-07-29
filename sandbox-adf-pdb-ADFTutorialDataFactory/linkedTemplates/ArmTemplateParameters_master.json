@@ -8,11 +8,38 @@
 		"AzureBlobStorageLinkedService_connectionString": {
 			"value": ""
 		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_connectionString": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
 		"OutputDataset_properties_typeProperties_fileName": {
 			"value": "emp.txt"
 		},
 		"OutputDataset_properties_typeProperties_folderPath": {
 			"value": "adftutorial"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "medidom\\paddy.brown"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "medidom\\paddy.brown"
+		},
+		"integrationRuntime1_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
+			"value": "sqlsvr-sandbox-adf-pdb.database.windows.net"
+		},
+		"integrationRuntime1_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminUserName": {
+			"value": "sandboxadfadmin"
+		},
+		"integrationRuntime1_properties_typeProperties_ssisProperties_catalogInfo_catalogAdminPassword": {
+			"value": ""
 		},
 		"containerUri": {
 			"value": ""
