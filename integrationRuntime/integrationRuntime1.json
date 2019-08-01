@@ -7,7 +7,11 @@
 				"location": "UK South",
 				"nodeSize": "Standard_D2_v3",
 				"numberOfNodes": 2,
-				"maxParallelExecutionsPerNode": 1
+				"maxParallelExecutionsPerNode": 1,
+				"vNetProperties": {
+					"vNetId": "/subscriptions/7bf39525-bdf4-471e-9532-be088e28b935/resourceGroups/RG-MedivetUAT/providers/Microsoft.Network/virtualNetworks/VN-MedivetUAT",
+					"subnet": "SN-Backend"
+				}
 			},
 			"ssisProperties": {
 				"catalogInfo": {
