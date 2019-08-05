@@ -1,0 +1,6 @@
+{
+	"name": "IR-on-prem-connection-test",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
