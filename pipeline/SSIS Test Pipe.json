@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Execute SSIS Test address update",
+				"name": "Execute SSIS Package - new try",
 				"type": "ExecuteSSISPackage",
 				"dependsOn": [],
 				"policy": {
@@ -24,14 +24,7 @@
 						"referenceName": "integrationRuntime1",
 						"type": "IntegrationRuntimeReference"
 					},
-					"loggingLevel": "Basic",
-					"packageConnectionManagers": {
-						"freedom4.Freedom": {
-							"UserName": {
-								"value": "medidom\\paddy.brown"
-							}
-						}
-					}
+					"loggingLevel": "Basic"
 				}
 			}
 		],
