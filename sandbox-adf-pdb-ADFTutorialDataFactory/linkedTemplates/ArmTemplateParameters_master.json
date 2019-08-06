@@ -20,6 +20,12 @@
 		"SqlServer2_password": {
 			"value": ""
 		},
+		"SqlServer3_connectionString": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
 		"OutputDataset_properties_typeProperties_fileName": {
 			"value": "emp.txt"
 		},
@@ -30,6 +36,9 @@
 			"value": "medidom\\paddy.brown"
 		},
 		"SqlServer2_properties_typeProperties_userName": {
+			"value": "medidom\\paddy.brown"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
 			"value": "medidom\\paddy.brown"
 		},
 		"integrationRuntime1_properties_typeProperties_ssisProperties_catalogInfo_catalogServerEndpoint": {
