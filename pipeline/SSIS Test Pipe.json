@@ -24,7 +24,14 @@
 						"referenceName": "integrationRuntime1",
 						"type": "IntegrationRuntimeReference"
 					},
-					"loggingLevel": "Basic"
+					"loggingLevel": "Basic",
+					"packageConnectionManagers": {
+						"freedom4.Freedom": {
+							"UserName": {
+								"value": "medidom\\paddy.brown"
+							}
+						}
+					}
 				}
 			}
 		],
