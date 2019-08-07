@@ -187,7 +187,19 @@
 							},
 							"loggingLevel": "Basic",
 							"projectConnectionManagers": {},
-							"packageConnectionManagers": {}
+							"packageConnectionManagers": {
+								"FREEDOM4.Freedom1": {
+									"Password": {
+										"value": {
+											"type": "SecureString",
+											"value": "12345678P!"
+										}
+									},
+									"UserName": {
+										"value": "medidom\\paddy.brown"
+									}
+								}
+							}
 						}
 					}
 				],
