@@ -159,13 +159,7 @@
 							},
 							"loggingLevel": "Basic",
 							"projectConnectionManagers": {},
-							"packageConnectionManagers": {
-								"freedom4.Freedom": {
-									"UserName": {
-										"value": "medidom\\paddy.brown"
-									}
-								}
-							}
+							"packageConnectionManagers": {}
 						}
 					}
 				],
